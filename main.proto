@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service gRPCExercise {
+  rpc add2Numbers(Elements) returns (Result) {}
+}
+
+message Elements {
+  int32 elmt1 = 1;
+  int32 elmt2 = 2;
+}
+
+message Result {
+  int32 result = 1;
+}
