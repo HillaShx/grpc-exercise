@@ -1,6 +1,3 @@
-# grpc-exercise
-For SeedX
-
 # Running the app
 To run the app, first run the server. Inside this repo's root directory, run
 ```bash
